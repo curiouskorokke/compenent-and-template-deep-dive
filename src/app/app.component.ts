@@ -8,6 +8,11 @@ import { TicketComponent } from './dashboard/ticket/ticket.component';
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
-  imports: [HeaderComponent, ServerStatusComponent, TrafficComponent],
+  imports: [
+    HeaderComponent,
+    ServerStatusComponent,
+    TrafficComponent,
+    TicketComponent,
+  ],
 })
 export class AppComponent {}
