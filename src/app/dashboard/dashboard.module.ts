@@ -4,10 +4,12 @@ import { DashboardHeaderComponent } from './header/header.component';
 import { ServerStatusComponent } from './server-status/server-status.component';
 import { TicketComponent } from './ticket/ticket.component';
 import { TrafficComponent } from './traffic/traffic.component';
+import { DashboardItemComponent } from './item/item.component';
 
 @NgModule({
   declarations: [
     DashboardHeaderComponent,
+    DashboardItemComponent,
     ServerStatusComponent,
     TicketComponent,
     TrafficComponent,
