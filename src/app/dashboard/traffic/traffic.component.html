@@ -1,8 +1,11 @@
 <article>
-  <header>
-    <img src="globe.png" alt="A globe" />
-    <h2>Traffic</h2>
-  </header>
+  <app-dashboard-header
+    [config]="{
+      src: 'globe.png',
+      alt: 'A globe',
+      title: 'Traffic'
+    }"
+  ></app-dashboard-header>
   <div id="traffic">
     <p>Last 7 days</p>
 

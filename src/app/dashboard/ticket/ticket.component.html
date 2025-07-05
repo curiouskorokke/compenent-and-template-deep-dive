@@ -1,8 +1,11 @@
 <article>
-  <header>
-    <img src="list.png" alt="A list of items" />
-    <h2>Support Tickets</h2>
-  </header>
+  <app-dashboard-header
+    [config]="{
+      src: 'list.png',
+      alt: 'A list of items',
+      title: 'Support Tickets'
+    }"
+  ></app-dashboard-header>
   <div id="status">
     <p>Todo...</p>
   </div>

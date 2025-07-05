@@ -1,8 +1,11 @@
 <article>
-  <header>
-    <img src="status.png" alt="A signal symbol" />
-    <h2>Server Status</h2>
-  </header>
+  <app-dashboard-header
+    [config]="{
+      src: 'status.png',
+      alt: 'A signal symbol',
+      title: 'Server status'
+    }"
+  ></app-dashboard-header>
   <div>
     @if (status === 'online') {
     <p>Servers are online</p>
