@@ -6,6 +6,7 @@ import { TicketComponent } from './ticket/ticket.component';
 import { TrafficComponent } from './traffic/traffic.component';
 import { DashboardItemComponent } from './item/item.component';
 import { NewTicketComponent } from './ticket/new/new.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { NewTicketComponent } from './ticket/new/new.component';
     NewTicketComponent,
     TrafficComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, SharedModule],
   exports: [ServerStatusComponent, TicketComponent, TrafficComponent],
 })
 export class DashboardModule {}
