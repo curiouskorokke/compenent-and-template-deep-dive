@@ -7,5 +7,5 @@ import { ServerStatus } from './server-status.interface';
   styleUrl: './server-status.component.css',
 })
 export class ServerStatusComponent {
-  status: ServerStatus = 'online';
+  status: ServerStatus = 'unknown';
 }

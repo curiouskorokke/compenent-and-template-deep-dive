@@ -6,7 +6,14 @@
       title: 'Server status'
     }"
   ></app-dashboard-header>
-  <div>
+  <div
+    [ngClass]="{
+      status: true,
+      'status-online': status === 'online',
+      'status-offline': status === 'offline',
+      'status-unknown': status === 'unknown',
+    }"
+  >
     @if (status === 'online') {
     <p>Servers are online</p>
     <p>All systems are operational.</p>

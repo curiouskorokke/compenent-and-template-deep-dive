@@ -1,1 +1,1 @@
-export type ServerStatus = 'online' | 'offline';
+export type ServerStatus = 'online' | 'offline' | 'unknown';
