@@ -5,6 +5,7 @@ import { ServerStatusComponent } from './server-status/server-status.component';
 import { TicketComponent } from './ticket/ticket.component';
 import { TrafficComponent } from './traffic/traffic.component';
 import { DashboardItemComponent } from './item/item.component';
+import { NewTicketComponent } from './ticket/new/new.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { DashboardItemComponent } from './item/item.component';
     DashboardItemComponent,
     ServerStatusComponent,
     TicketComponent,
+    NewTicketComponent,
     TrafficComponent,
   ],
   imports: [CommonModule],
